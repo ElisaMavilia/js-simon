@@ -5,9 +5,21 @@ Dopo che sono stati inseriti i 5 numeri, il software dice quanti e quali dei num
 
 // Cosa serve: 
 // # Array vuoto in cui verranno inseriti i numeri casuali;
+// # Array vuoto con i numeri inseriti dall'utente;
+// # Array con i numeri indovinati;
+// # Funzione random
 // # Ciclo for per creare i box;
 // # Ciclo While per generare i numeri causali non ripetuti;
-// # metodo .push() per inseire i numeri dentro l+array
-// # funzione timeout per inserire timer di 30 sec
-// # prompt o casella input per l'utente
-// # condizione if per stabilire se i numeri utente combaciano con i numeri generati
+// # Metodo includes() per verificare se il numero è presente nella lista;
+// # metodo .push() per inseire i numeri dentro l'array;
+// # funzione timeout per inserire timer di 30 sec;
+// # innerHTML vuoto per svuotare il div con i numeri;
+// # prompt o casella input per l'utente;
+// # condizione if per stabilire se i numeri utente combaciano con i numeri generati;
+
+let userNumberFirst = document.getElementById()
+
+
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
