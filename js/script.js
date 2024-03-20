@@ -28,7 +28,7 @@ let userchoice = [];
 
 let correctNumbers = []; 
 
-function generateNumbers (num){
+/* function generateNumbers (num){
     let randomNumber = [];
     let counter = 0;
     
@@ -42,7 +42,7 @@ function generateNumbers (num){
     return randomNumber;
 }
 
-
+ */
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
