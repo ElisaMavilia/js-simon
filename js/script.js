@@ -28,22 +28,19 @@ let userchoice = [];
 
 let correctNumbers = []; 
 
-function generateNumbers (){
+function generateNumbers (num){
     let randomNumber = [];
-    let counter = 1;
+    let counter = 0;
     
-    while (randomNumber.length < 5){
-        let numbers = getRndInteger(1, 100);
+    while (randomNumber.length < 5 && counter < 100){
+        let numbers = getRndInteger(1, num);
         if (randomNumber.includes(numbers)){
             randomNumber.push(numbers);
         }
         counter++;
-        console.log(randomNumber);
-        
     }
     return randomNumber;
 }
-
 
 
 function getRndInteger(min, max) {
